@@ -1,0 +1,28 @@
+.containerFormImg {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(5, 178, 190);
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
+
+.input:focus {
+  transform: scale(1);
+}
+
+.textarea {
+  border: 1px solid rgb(5, 178, 190);
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+
+.textarea:focus {
+  transform: scale(1);
+  border: 1px solid rgb(5, 178, 190);
+}

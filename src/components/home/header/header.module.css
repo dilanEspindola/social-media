@@ -1,0 +1,13 @@
+.profileHeader ul {
+  /* display: none; */
+}
+
+/* .profileHeader ul:hover {
+  display: flex;
+  transition: all 0.5s ease-in-out;
+} */
+
+/* .profileHeader > div:hover + ul {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+} */

@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+  .loginContainter {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .loginContainter {
+    display: flex;
+  }
+}
