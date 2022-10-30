@@ -17,6 +17,7 @@ const LoginPage: NextPage = () => {
   const { login } = useAuth();
 
   const submit = (loginData: Login) => {
+    console.log(loginData);
     login(loginData).then((data) => {
       data.auth && router.push(`/${PRIVATE_ROUTES.PROFILE}`);
     });
